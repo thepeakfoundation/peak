@@ -8,13 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thepeakfoundation/peak.git"
+    "url": "git+https://github.com/thepeakfoundation/peak-core.git"
   },
   "author": "Carl Chryniszzswics <CarlChryn@protonmail.com> (https://github.com/carlchryniszzswics) & Friedrich Carlsen <FriedrichCarlsen@protonmail.com (https://www.github.com/friedrichcarlsen)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thepeakfoundation/peak/issues"
+    "url": "https://github.com/thepeakfoundation/peak-core/issues"
   },
-  "homepage": "https://github.com/thepeakfoundation/peak#readme"
+  "homepage": "https://github.com/thepeakfoundation/peak-core"
 }
-
