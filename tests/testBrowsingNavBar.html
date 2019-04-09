@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Testing Browsing Navbar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+  </head>
+  <body>
+
+    <div class="ui secondary menu" style="background-color: #1A1A1A;">
+      <a class="item">
+        <img src="../src/assets/logo.png" alt="logo">
+      </a>
+      <a class="active item" style="color: #FF0066; font-weight: bold;">Home</a>
+      <a class="item" style="color: white;">Categories</a>
+      <a class="item" style="color: white;">Leaderboard</a>
+
+      <div class="ui menu" style="background-color: #1A1A1A;">
+        <a class="browse item" style="color: white;">
+          Browse
+          <i class="dropdown icon"></i>
+        </a>
+        <div class="ui fluid popup">
+          <div class="ui one column relaxed divided grid">
+            <div class="column">
+              <h4 class="ui header">Fabrics</h4>
+              <div class="ui link list">
+                <a class="item">Cashmere</a>
+                <a class="item">Linen</a>
+                <a class="item">Cotton</a>
+                <a class="item">Viscose</a>
+              </div>
+            </div>
+            <div class="column">
+              <h4 class="ui header">Size</h4>
+              <div class="ui link list">
+                <a class="item">Small</a>
+                <a class="item">Medium</a>
+                <a class="item">Large</a>
+                <a class="item">Plus Sizes</a>
+              </div>
+            </div>
+            <div class="column">
+              <h4 class="ui header">Colors</h4>
+              <div class="ui link list">
+                <a class="item">Neutrals</a>
+                <a class="item">Brights</a>
+                <a class="item">Pastels</a>
+              </div>
+            </div>
+            <div class="column">
+              <h4 class="ui header">Types</h4>
+              <div class="ui link list">
+                <a class="item">Knitwear</a>
+                <a class="item">Outerwear</a>
+                <a class="item">Pants</a>
+                <a class="item">Shoes</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right menu">
+        <div class="item" style="color: white;">
+          <div class="ui icon input">
+            <input type="text" placeholder="Search...">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+        <a class="right ui item" style="color: white;">
+          Logout
+        </a>
+      </div>
+    </div>
+
+<script>
+$('.menu .browse')
+.popup({
+  inline   : true,
+  hoverable: true,
+  preserve: true,
+  boundary: 'body',
+  position : 'bottom left'
+});
+</script>
+
+</body>
+</html>

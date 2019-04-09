@@ -1,0 +1,17 @@
+
+body {
+  background-color: black;
+}
+
+
+img{
+  top:300;
+  bottom:300;
+  left:300;
+  right:300;
+
+}
+
+#item {
+  color: white;
+}
